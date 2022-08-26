@@ -32,27 +32,27 @@ class Todos {
         return date;
       }
 
-    projectsList = ['Inbox', 'Home', 'College', 'Creative', 'Work'];
-    // projectsList = ['Inbox'];
+    // projectsList = ['Inbox', 'Home', 'College', 'Creative', 'Work'];
+    projectsList = ['Inbox'];
     todoList = [];
 
-    sampleData = [
-        {project: 'Inbox', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
-        {project: 'Home', title : 'new mail', dueDate : new Date(), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
-        {project: 'Work', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:true},
-        {project: 'Inbox', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
-        {project: 'College', title : 'new mail', dueDate : new Date(), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
-        {project: 'Inbox', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
-        {project: 'Home', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
-        {project: 'Inbox', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:true},
-        {project: 'College', title : 'new mail', dueDate : new Date(), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
-        {project: 'Work', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
-        {project: 'Home', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
-        {project: 'Inbox', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:true},
-        {project: 'College', title : 'new mail', dueDate : new Date(), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
-        {project: 'Work', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
-        {project: 'College', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
-    ].forEach(list => this.addTodo(list.project, list.title, list.dueDate, list.details, list.priority, list.done))
+    // sampleData = [
+    //     {project: 'Inbox', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
+    //     {project: 'Home', title : 'new mail', dueDate : new Date(), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
+    //     {project: 'Work', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:true},
+    //     {project: 'Inbox', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
+    //     {project: 'College', title : 'new mail', dueDate : new Date(), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
+    //     {project: 'Inbox', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
+    //     {project: 'Home', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
+    //     {project: 'Inbox', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:true},
+    //     {project: 'College', title : 'new mail', dueDate : new Date(), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
+    //     {project: 'Work', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
+    //     {project: 'Home', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
+    //     {project: 'Inbox', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:true},
+    //     {project: 'College', title : 'new mail', dueDate : new Date(), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
+    //     {project: 'Work', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
+    //     {project: 'College', title : 'new mail', dueDate : this.randomDate(1, 30, 5, 16), details : 'djfhdsjkfhdsjkfh', priority:'high', done:false},
+    // ].forEach(list => this.addTodo(list.project, list.title, list.dueDate, list.details, list.priority, list.done))
 
     constructor(){
 
