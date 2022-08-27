@@ -28,6 +28,9 @@ let newTaskPriority = document.querySelector('#body-priority');
 
 let masterTodo = new Todos();
 
+let todayDate = new Date().toISOString();
+let n = todayDate.lastIndexOf(':');
+newTaskDate.min = todayDate.slice(0, n);
 
 function addNewProjectToBody(newPro){
     let newLi = document.createElement('li');
